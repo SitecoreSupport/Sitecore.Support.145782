@@ -1,5 +1,5 @@
 # Sitecore.Support.145782
-If you have several `ASP.NET AJAX MVC Forms` on one layout and you submit the next form then several POST requests are sent.<br/>
+Several `POST` requests are sent if you have several `ASP.NET AJAX MVC Forms` on one layout and you submit the next form.<br/>
 In this case, a save action (`Send Email Message`, `Create Item`, etc.) may be executed several times.
 
 ## License  
