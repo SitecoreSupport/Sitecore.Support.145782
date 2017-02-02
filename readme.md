@@ -1,5 +1,6 @@
 # Sitecore.Support.145782
-Prevents from several POST requests when submitting additional AJAX MVC form on the same layout
+If you have several `ASP.NET AJAX MVC Forms` on one layout and you submit the next form then several POST requests are sent.<br/>
+In this case, a save action (`Send Email Message`, `Create Item`, etc.) may be executed several times.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.145782/blob/master/LICENSE).  
